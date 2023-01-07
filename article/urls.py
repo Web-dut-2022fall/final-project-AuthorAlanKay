@@ -1,5 +1,5 @@
 # 引入path
-from django.conf.urls import url
+from django.urls import re_path as url
 from django.urls import path
 # 引入views.py
 from . import views
